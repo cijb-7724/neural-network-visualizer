@@ -44,18 +44,18 @@ $$ f(x, y) = \sin\left(\sqrt{x^2 + y^2}\right) -4\cos\left(\frac{y}{3}\right) + 
 ## 遊び方
 #### Processingのインストール
 [Processing](https://www.processing.org/)を用いてニューラルネットワークの設計や描画を行っている．これをインストールして，手元にコードを(**nn**のフォルダごと)インストールすればだれでも遊べる！
-#### ファイルの置き方
-processing-4.3
-├── core
-├── java
-├── lib
-├── modes
-├── **nn**
-│   └── **nn.pde**
-│   └── **func.png**
-├── tools
-├── processing.exe
-└── processing-java.exe
+#### ファイルの置き方  
+processing-4.3  
+├── core  
+├── java  
+├── lib  
+├── modes  
+├── **nn**  
+│   └── **nn.pde**  
+│   └── **func.png**  
+├── tools  
+├── processing.exe  
+└── processing-java.exe  
 
 ## 高専ゼミ「手計算ニューラルネットワーク」
 元々は自分がニューラルネットワークを理解したいという気持ちから，高専時代の同級生に対してゼミを行った．どのように**学習**が行われているかを理解したかったので，手計算でニューラルネットワークを学習することを目標にしたゼミを行った．
