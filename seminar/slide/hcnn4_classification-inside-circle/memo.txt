@@ -1,0 +1,58 @@
+排他的論理の判定　ハイパーパラメータ
+double eta = 0.03, attenuation = 0.9;
+int n = 1000;
+int show_interval = 1000;
+int learning_plan = 2000;
+int loop = 20000;
+int batch_size = 100;
+vector<int> nn_form = {2, 3, 3, 2};
+
+
+円の内外の判定　ハイパーパラメータ
+double eta = 0.1, attenuation = 0.7;
+int n = 1000;
+int show_interval = 1000;
+int learning_plan = 2000;
+int loop = 10000;
+int batch_size = 100;
+vector<int> nn_form = {2, 3, 3, 2};
+
+線形分離可能　ハイパーパラメータ
+double eta = 0.3, attenuation = 0.9;
+int n = 1000;
+int show_interval = 1000;
+int learning_plan = 1000;
+int loop = 10000;
+int batch_size = 100;
+vector<int> nn_form = {2, 3, 3, 2};
+
+3クラス分類　ハイパーパラメータ
+double eta = 0.1, attenuation = 0.8;
+int n = 1000;
+int show_interval = 1000;
+int learning_plan = 2000;
+int loop = 4000;
+int batch_size = 100;
+vector<int> nn_form = {2, 3, 4, 4, 3};
+
+iris data sets 
+double eta = 0.01, attenuation = 0.5;
+int n = 150;
+int show_interval = 100;
+int learning_plan = 50;
+int loop = 4000;
+int batch_size = 10;
+vector<int> nn_form = {4, 10, 3};
+
+iris data sets
+double eta = 0.005, attenuation = 0.9;
+int show_interval = 10;
+int learning_plan = 10;
+int loop = 100;
+int batch_size = 32; //<train_size
+vector<int> nn_form = {4, 10, 3};
+int depth = nn_form.size()-1;
+
+
+
+
