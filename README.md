@@ -1,14 +1,4 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=60&pause=1000&color=45C9B0&center=true&vCenter=true&random=true&width=900&height=150&lines=Neural-Network-Visualizer)](https://git.io/typing-svg)
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
 
 ## 完成品
 ![nn-v](pic/summary.gif)
